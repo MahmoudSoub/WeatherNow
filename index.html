@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/main.css" />
+    <title>Weather Now</title>
+  </head>
+  <body class="bg-gray-200">
+    <div
+      class="p-4 max-w-md flex flex-col justify-center items-center mx-auto space-x-1"
+    >
+      <h1 class="text-7xl text-gray-900 mt-2 mb-16 font-thin font-mono">
+        Weather<span class="font-extrabold text-8xl text-slate-700">Now</span>
+      </h1>
+      <form>
+        <label for="location"></label>
+        <input
+          type="text"
+          name="location"
+          class="shadow-md w-96 h-12 p-4 mt-4 outline-none focus:outline-blue-600 rounded-sm"
+          placeholder="Type in a location..."
+        />
+      </form>
+
+      <div class="card"></div>
+    </div>
+    <script src="scripts/weather.js"></script>
+    <script src="scripts/script.js"></script>
+  </body>
+</html>
